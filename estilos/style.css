@@ -9,7 +9,7 @@
 
 /* Aplica a imagem de fundo a todo o corpo da página */
 body {
-    background-image: url("");
+    background-image: url("logomtst.png");
     text-align: center;
     background-size: cover; /* Garante que a imagem cubra toda a área visível */
     background-position: center; /* Centraliza a imagem no centro da página */
