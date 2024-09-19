@@ -126,7 +126,7 @@ main {
 }
 
 #pagina1 > h3:hover {
-    background-color: #6a6d74;
+    background-color: #6e8acc88;
     transition: 0.5s;
 }
 
