@@ -20,6 +20,8 @@ body {
 
 
 header {
+
+    background-image: url('logomtst.jpeg');
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,11 +31,11 @@ header {
     flex-direction: column;
     justify-content: center; /* Alinha os itens verticalmente */
     text-align: right; /* Alinha o texto horizontalmente */
-    background-image: url('logomtst.jpeg');
-
+    
 }
 
 menu {
+    background-image: url('logomtst.jpeg');
     display: none;
     justify-content: center;
     margin-top: auto; /* Faz com que o menu fique no final do cabeçalho */
