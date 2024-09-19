@@ -37,7 +37,7 @@ menu {
     display: none;
     justify-content: center;
     margin-top: auto; /* Faz com que o menu fique no final do cabeçalho */
-    width: 98%;
+    width: 99%;
 }
 
 menu > ul {
@@ -50,7 +50,7 @@ menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: #899ac2;
+    background-color: #9ea7bd;
     color: white;
     text-align: center;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.466);
@@ -64,7 +64,7 @@ menu > ul > li > a:hover {
 
 main {
     width: 90vw;
-    background-image: url('logomtst.jpeg');
+    background-color: rgba(240, 255, 255, 0.308);
     margin: 0 auto;
     margin-top: 10px;
     padding: 10px;
