@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display:inline-block;
+    }
+
+    }
+
+    img {
+        max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
+    }
+
+    nav a {
+        transition: 0.5s;
+    }
+    
