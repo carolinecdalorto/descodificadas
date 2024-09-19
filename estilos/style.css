@@ -23,13 +23,13 @@ header {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: right;
     height: auto; /* Alterado para altura automática */
     min-height: 50px; /* Altura mínima do cabeçalho */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Alinha os itens verticalmente */
-    text-align: left; /* Alinha o texto horizontalmente */
+    text-align: right; /* Alinha o texto horizontalmente */
 }
 
 menu {
