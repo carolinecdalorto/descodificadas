@@ -25,11 +25,11 @@ header {
     background-size: cover;
     background-position: left;
     height: auto; /* Alterado para altura automática */
-    min-height: 20px; /* Altura mínima do cabeçalho */
+    min-height: 50px; /* Altura mínima do cabeçalho */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Alinha os itens verticalmente */
-    text-align: center; /* Alinha o texto horizontalmente */
+    text-align: left; /* Alinha o texto horizontalmente */
 }
 
 menu {
