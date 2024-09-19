@@ -7,9 +7,8 @@
     padding: 0px;
 }
 
-/* Aplica a imagem de fundo a todo o corpo da página */
 body {
-    background-image: url("logomtst.png");
+    background-image: url('logomtst.jpeg');
     text-align: center;
     background-size: cover; /* Garante que a imagem cubra toda a área visível */
     background-position: center; /* Centraliza a imagem no centro da página */
