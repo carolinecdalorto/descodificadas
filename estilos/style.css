@@ -29,6 +29,8 @@ header {
     flex-direction: column;
     justify-content: center; /* Alinha os itens verticalmente */
     text-align: right; /* Alinha o texto horizontalmente */
+    background-image: url('logomtst.jpeg');
+
 }
 
 menu {
