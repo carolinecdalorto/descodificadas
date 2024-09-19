@@ -120,7 +120,7 @@ main {
     background-color: #9ea7bd;
     color: white;
     text-align: center;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.466);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.466);
     border-radius: 5px;
     transition: 0.5s;
 }
