@@ -5,7 +5,10 @@
     line-height: 1.6;
     margin: 0px;
     padding: 0px;
-    background-image: url("logomtst.png");
+}
+
+body {
+    background-image: url("logomtst.png")
 }
 
 h1 {
