@@ -21,7 +21,6 @@ body {
 
 header {
 
-    background-image: url('logomtst.jpeg');
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +34,6 @@ header {
 }
 
 menu {
-    background-image: url('logomtst.jpeg');
     display: none;
     justify-content: center;
     margin-top: auto; /* Faz com que o menu fique no final do cabeçalho */
@@ -66,7 +64,7 @@ menu > ul > li > a:hover {
 
 main {
     width: 90vw;
-    background-color: white;
+    background-image: url('logomtst.jpeg');
     margin: 0 auto;
     margin-top: 10px;
     padding: 10px;
@@ -109,7 +107,6 @@ main {
     line-height: 1.6; /* Espaçamento entre as linhas */
     text-indent: 0px; /* Adiciona um recuo uniforme à esquerda de cada parágrafo */
 }
-
 
 article > h2 {
     padding-bottom: 10px;
