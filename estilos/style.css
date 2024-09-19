@@ -37,7 +37,7 @@ menu {
     display: none;
     justify-content: center;
     margin-top: auto; /* Faz com que o menu fique no final do cabeçalho */
-    width: 90%;
+    width: 98%;
 }
 
 menu > ul {
