@@ -196,7 +196,7 @@ h2 {
 }
 
 .map-container {
-    width: 100%; /* Define a largura do container do mapa */
+    width: 200%; /* Define a largura do container do mapa */
     height: 500px; /* Define a altura do container */
     margin: 20px auto;
 }
@@ -205,7 +205,6 @@ iframe {
     width: 50%;
     height: 50%;
     margin-top: 100px;
-    padding: 100px;
     border: none; /* Remove a borda do iframe */
 }
 
