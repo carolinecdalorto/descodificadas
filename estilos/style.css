@@ -183,6 +183,11 @@ h2 {
     font-size: 40px;
 }
 
-.footer {
-    padding: 50%;
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
