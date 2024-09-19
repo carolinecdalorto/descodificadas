@@ -9,7 +9,7 @@
 
 /* Aplica a imagem de fundo a todo o corpo da página */
 body {
-    background-image: url("logomtst.png");
+    background-image: url("");
     background-size: cover; /* Garante que a imagem cubra toda a área visível */
     background-position: center; /* Centraliza a imagem no centro da página */
     background-repeat: no-repeat; /* Impede que a imagem seja repetida */
@@ -23,9 +23,9 @@ header {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: cover;
     height: auto; /* Alterado para altura automática */
-    min-height: 300px; /* Altura mínima do cabeçalho */
+    min-height: 500px; /* Altura mínima do cabeçalho */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Alinha os itens verticalmente */
