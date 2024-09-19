@@ -24,7 +24,6 @@ header {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
     height: auto; /* Alterado para altura automática */
     min-height: 60px; /* Altura mínima do cabeçalho */
     display: flex;
