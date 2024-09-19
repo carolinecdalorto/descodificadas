@@ -216,7 +216,6 @@ iframe {
 
 .video-container {
     width: 100%;
-    max-width: 900px; /* Tamanho máximo para limitar o vídeo */
     margin: 0 auto; /* Centraliza o vídeo */
 }
 
