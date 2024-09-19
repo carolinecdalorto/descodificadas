@@ -198,7 +198,7 @@ h2 {
 .map-container {
     width: 300%; /* Define a largura do container do mapa */
     height: 800px; /* Define a altura do container */
-    margin: 20px;
+    margin: 50px auto;
 }
 
 iframe {
