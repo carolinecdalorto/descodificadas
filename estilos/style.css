@@ -37,7 +37,7 @@ menu {
     display: none;
     justify-content: center;
     margin-top: auto; /* Faz com que o menu fique no final do cabeçalho */
-    width: 100%;
+    width: 90%;
 }
 
 menu > ul {
@@ -50,7 +50,7 @@ menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: #778fc7;
+    background-color: #899ac2;
     color: white;
     text-align: center;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.466);
