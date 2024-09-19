@@ -113,10 +113,6 @@ main {
     text-align: left;
 }
 
-#pagina4 article > h1 {
-    font-size: 10px;
-}
-
 article > h2 {
     padding-bottom: 10px;
 }
