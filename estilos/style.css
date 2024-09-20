@@ -13,6 +13,7 @@ body {
     background-size: cover; /* Garante que a imagem cubra toda a área visível */
     background-position: center; /* Centraliza a imagem no centro da página */
     background-repeat: no-repeat; /* Impede que a imagem seja repetida */
+    background-attachment: fixed;
     height: 100vh; /* Define a altura mínima como 100% da viewport */
     margin: 0;
     padding: 0;
