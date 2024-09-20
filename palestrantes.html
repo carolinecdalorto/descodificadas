@@ -29,5 +29,47 @@
     <div class="video-container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/fbW0b30_xb4?si=N9RlT9FJ0E282-1h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
+
+    <script>
+
+        function colunas() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+        
+
+        // Adiciona um evento de clique a um elemento que leva à próxima página
+        document.getElementById('botao_proxima_pagina').addEventListener('click', function() {
+        // Adiciona a classe 'saindo' à página atual
+        document.getElementById('pagina1').classList.add('saindo');
+
+        // Remove a classe 'saindo' após a animação terminar
+        setTimeout(function() {
+        document.getElementById('pagina1').classList.remove('saindo');
+        // Redireciona para a próxima página
+        window.location.href = 'pagina2.html';
+        }, 1000); // Tempo de duração da animação (em milissegundos)
+        });
+    </script>
+   
 </body>
 </html>
