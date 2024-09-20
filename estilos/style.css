@@ -131,14 +131,14 @@ main {
 }
 
 #pagina3 > h3 {
+    text-align: justify; /* Mantém o texto justificado dentro do artigo */
+    background-color: white;
     padding: 10px;
-    display: inline-block;
-    text-decoration: none;
-    background-color: #9ea7bd;
-    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
+    margin: 10px auto; /* Centraliza o main */
+    display: flex; /* Ativa o modelo flexbox */
     text-align: center;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.466);
-    border-radius: 5px;
 }
 
 article > h2 {
