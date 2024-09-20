@@ -131,7 +131,6 @@ main {
 }
 
 .line {
-    text-align: justify; /* Mantém o texto justificado dentro do artigo */
     background-color: white;
     padding: 10px;
     border-radius: 10px;
