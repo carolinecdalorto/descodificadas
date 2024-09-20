@@ -130,7 +130,7 @@ main {
     transition: 0.5s;
 }
 
-.pagina3 > h3 {
+.palestrante-box {
     text-align: justify; /* Mantém o texto justificado dentro do artigo */
     background-color: white;
     padding: 10px;
