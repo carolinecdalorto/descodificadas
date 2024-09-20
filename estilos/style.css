@@ -9,6 +9,7 @@
 
 body {
     background-image: url('logomtst.jpeg');
+    height: 100vh;
     text-align: center;
     background-size: cover; /* Garante que a imagem cubra toda a área visível */
     background-position: center; /* Centraliza a imagem no centro da página */
