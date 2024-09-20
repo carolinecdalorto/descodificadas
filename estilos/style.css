@@ -75,7 +75,7 @@ main {
 
 #pagina1 > h2 {
     padding: 10px;
-    display: inline-block;
+    display: flex;
     text-decoration: none;
     background-color: #9ea7bd;
     color: white;
