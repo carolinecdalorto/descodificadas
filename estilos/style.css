@@ -73,6 +73,24 @@ main {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.404);
     }
 
+.itens {
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #9ea7bd;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.466);
+    border-radius: 5px;
+    margin-top: 200px;
+}
+    
+.itens > h3:hover {
+    background-color: #6e8acc88;
+    transition: 0.5s;
+}
+    
+
 #pagina3 main {
     background-color: white;
     padding: 10px;
@@ -112,23 +130,6 @@ main {
     display: flex; /* Ativa o modelo flexbox */
     flex-direction: column; /* Exibe os elementos em uma única coluna */
     text-align: left;
-}
-
-#pagina1 > h3 {
-    padding: 10px;
-    display: inline-block;
-    text-decoration: none;
-    background-color: #9ea7bd;
-    color: white;
-    text-align: center;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.466);
-    border-radius: 5px;
-    margin-top: 200px;
-}
-
-#pagina1 > h3:hover {
-    background-color: #6e8acc88;
-    transition: 0.5s;
 }
 
 .programacao-box {
