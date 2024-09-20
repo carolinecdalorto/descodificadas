@@ -73,7 +73,7 @@ main {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.404);
     }
 
-#pagina1 > h3 {
+#pagina1 > h2 {
     padding: 10px;
     display: inline-block;
     text-decoration: none;
@@ -85,7 +85,7 @@ main {
     margin-top: 200px;
 }
     
-#pagina1 > h3:hover {
+#pagina1 > h2:hover {
     background-color: #6e8acc88;
     transition: 0.5s;
 }
