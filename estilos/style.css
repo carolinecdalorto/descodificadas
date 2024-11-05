@@ -285,8 +285,13 @@ footer {
 
 /* Estilos para diferentes tipos de elementos */
 .element.alcalino { background-color: #ffa2a2; }
-.element.noble-gas { background-color: #f3d1f4; }
-.element.alkali-metal { background-color: #ffe066; }
-.element.alkaline-earth-metal { background-color: #b5e48c; }
-.element.metalloid { background-color: #ffc3a0; }
-.element.halogen { background-color: #9d4edd; }
+.element.terrosos { background-color: #ffe066; }
+.element.transicao { background-color: #6bff66; }
+.element.postransicao { background-color: #9d4edd; }
+.element.semimetais { background-color: #ecf00a; }
+.element.naometaispoli { background-color: #1a4203; }
+.element.naometaisdiato { background-color: #ec6b15; }
+.element.gasesnobres { background-color: #e711a7; }
+.element.desconhecidos { background-color: #93949b; }
+.element.lantanideos { background-color: #1127e7; }
+.element.actinideos { background-color: #2e388f; }
