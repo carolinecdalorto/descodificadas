@@ -267,28 +267,25 @@ footer {
 }
 
 .periodic-table {
-    margin: auto;
+    width: 100%;
     border-collapse: collapse;
+    margin: auto;
 }
 
 .periodic-table .element {
-    width: 80px;
-    height: 100px;
+    width: 60px;
+    height: 80px;
+    text-align: center;
     padding: 8px;
-    margin: 4px;
-    border: 1px solid #ddd;
     border-radius: 8px;
     background-color: #f4f4f9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease;
 }
 
-/* Diferentes estilos para categorias de elementos */
+/* Estilos para diferentes tipos de elementos */
 .element.nonmetal { background-color: #a2d2ff; }
-.element.noble-gas { background-color: #d4a5a5; }
+.element.noble-gas { background-color: #f3d1f4; }
 .element.alkali-metal { background-color: #ffe066; }
 .element.alkaline-earth-metal { background-color: #b5e48c; }
 .element.metalloid { background-color: #ffc3a0; }
