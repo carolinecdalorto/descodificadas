@@ -284,7 +284,7 @@ footer {
 }
 
 /* Estilos para diferentes tipos de elementos */
-.element.nonmetal { background-color: #a2d2ff; }
+.element.alcalino { background-color: #ffa2a2; }
 .element.noble-gas { background-color: #f3d1f4; }
 .element.alkali-metal { background-color: #ffe066; }
 .element.alkaline-earth-metal { background-color: #b5e48c; }
