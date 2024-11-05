@@ -266,69 +266,30 @@ footer {
     margin-top: 250px;
 }
 
-table {
-    display: grid;
-    grid-template-columns: repeat(18, 1fr);
-    gap: 8px;
-    padding: 20px;
-    background-color: #f4f4f9;
-    max-width: 1200px;
-    margin: 0 auto;
+.periodic-table {
+    margin: auto;
+    border-collapse: collapse;
 }
 
-/* Estilos gerais para cada elemento */
-.element {
+.periodic-table .element {
+    width: 80px;
+    height: 100px;
+    padding: 8px;
+    margin: 4px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f4f4f9;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    border-radius: 8px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    font-family: Arial, sans-serif;
-    color: #333;
+    transition: transform 0.2s ease;
 }
 
-/* Estilos para o símbolo do elemento */
-.element .symbol {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #333;
-}
-
-/* Estilos para o número do elemento */
-.element .number {
-    font-size: 0.9em;
-    color: #666;
-}
-
-/* Estilos para o nome do elemento */
-.element .name {
-    font-size: 0.8em;
-    color: #888;
-}
-
-/* Exemplo de estilos de cores para diferentes tipos de elementos */
-.element.nonmetal {
-    background-color: #a2d2ff;
-}
-
-.element.metal {
-    background-color: #ffafcc;
-}
-
-.element.metalloid {
-    background-color: #ffc3a0;
-}
-
-.element.noble-gas {
-    background-color: #d4a5a5;
-}
-
-/* Adicionar efeito de hover */
-.element:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-}
+/* Diferentes estilos para categorias de elementos */
+.element.nonmetal { background-color: #a2d2ff; }
+.element.noble-gas { background-color: #d4a5a5; }
+.element.alkali-metal { background-color: #ffe066; }
+.element.alkaline-earth-metal { background-color: #b5e48c; }
+.element.metalloid { background-color: #ffc3a0; }
+.element.halogen { background-color: #9d4edd; }
