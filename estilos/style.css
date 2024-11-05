@@ -283,6 +283,10 @@ footer {
     transition: transform 0.2s ease;
 }
 
+tr:empty {
+    height: 20px; /* Define a altura da linha vazia */
+}
+
 /* Estilos para diferentes tipos de elementos */
 .element.alcalino { background-color: #ffa2a2; }
 .element.terrosos { background-color: #ffe066; }
