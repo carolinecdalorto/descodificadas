@@ -283,6 +283,12 @@ footer {
     transition: transform 0.2s ease;
 }
 
+.number {
+    text-align: right;
+    font-size: small;
+}
+
+
 tr:empty {
     height: 20px; /* Define a altura da linha vazia */
 }
