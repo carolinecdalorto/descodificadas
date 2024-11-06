@@ -268,11 +268,9 @@ footer {
 }
 
 .periodic-table {
-    width: 100%;
+    width: 90%;
     border-collapse: collapse;
     margin: auto;
-    margin-left: 20px;  /* margem de 20px à esquerda */
-    margin-right: 20px; /* margem de 20px à direita */
 }
 
 .periodic-table.element {
