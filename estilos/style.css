@@ -16,7 +16,7 @@ span#burguer {
     text-align: center;
     padding: 10px;
     cursor: pointer; /*tornar-se maozinha quando passa o mouse */
-    border-radius: 5px;
+    border-radius: 10px;
     }
 
 span#burguer:hover {
