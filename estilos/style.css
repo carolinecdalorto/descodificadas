@@ -80,7 +80,7 @@ menu > ul > li > a:hover {
 }
 
 main {
-    width: 60vw;
+    width: 68vw;
     background-color: white;
     margin: 0 auto;
     margin-top: 10px;
@@ -149,7 +149,7 @@ main {
 
 .programacao-box {
     text-align: justify; /* Mantém o texto justificado dentro do artigo */
-    width: 90vw;
+    width: 68vw;
     background-color: rgba(255, 255, 255, 0.384);
     padding: 10px;
     border-radius: 10px;
