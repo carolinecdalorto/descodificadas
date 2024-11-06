@@ -294,6 +294,10 @@ footer {
     text-align: center;
 }
 
+.name {
+    margin-top: 100%;
+}
+
 
 tr:empty {
     height: 20px; /* Define a altura da linha vazia */
