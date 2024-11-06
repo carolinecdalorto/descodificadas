@@ -32,7 +32,7 @@ body {
     height: 100vh; /* Define a altura mínima como 100% da viewport */
     margin: 0;
     padding: 0;
-    display: flexbox;
+    display:block;
 }
 
 
