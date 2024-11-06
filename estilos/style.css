@@ -288,6 +288,10 @@ footer {
     font-size: small;
 }
 
+.symbol {
+    font-size: larger;
+}
+
 
 tr:empty {
     height: 20px; /* Define a altura da linha vazia */
