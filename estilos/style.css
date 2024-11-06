@@ -267,7 +267,8 @@ footer {
 }
 
 .periodic-table {
-    width: 80%;
+    width: 90vw;
+    width: 100%;
     border-collapse: collapse;
     margin: auto;
 }
