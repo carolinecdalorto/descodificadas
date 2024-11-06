@@ -284,8 +284,9 @@ footer {
 }
 
 .number {
-    text-align: right;
+    text-align: left;
     font-size: small;
+    top: 0%;
 }
 
 .symbol {
