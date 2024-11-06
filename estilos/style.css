@@ -284,10 +284,9 @@ footer {
 }
 
 .number {
-    text-align: left;
     font-size: small;
-    top: 0%;
-    right: 0%;
+    margin-top: 0%;
+    margin-right: 100%;
 }
 
 .symbol {
