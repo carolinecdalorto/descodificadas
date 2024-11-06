@@ -6,6 +6,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 span#burguer {
@@ -64,7 +65,7 @@ menu > ul {
 }
 
 menu > ul > li > a {
-    display:flexbox;
+    display: block;
     padding: 10px;
     text-decoration: none;
     background-color: #778fc7;
