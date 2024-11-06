@@ -5,7 +5,6 @@
     line-height: 1.6;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
 }
 
 span#burguer {
@@ -33,6 +32,7 @@ body {
     height: 100vh; /* Define a altura mínima como 100% da viewport */
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 
@@ -65,7 +65,7 @@ menu > ul {
 
 menu > ul > li > a {
     display: block;
-    padding: 5px;
+    padding: 10px;
     text-decoration: none;
     background-color: #778fc7;
     color: white;
