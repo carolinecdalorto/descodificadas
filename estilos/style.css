@@ -84,7 +84,6 @@ main {
     margin: 0 auto;
     margin-top: 10px;
     padding: 10px;
-    
 }
 
 #pagina1 > h2 {
@@ -273,7 +272,7 @@ footer {
     margin: auto;
 }
 
-.periodic-table.element {
+.periodic-table .element {
     width: 60px;
     height: 80px;
     text-align: center;
