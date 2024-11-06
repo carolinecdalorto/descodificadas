@@ -64,8 +64,8 @@ menu > ul {
 }
 
 menu > ul > li > a {
-    display:flexbox;
-    padding: 10px;
+    display: block;
+    padding: 5px;
     text-decoration: none;
     background-color: #778fc7;
     color: white;
