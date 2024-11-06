@@ -243,7 +243,6 @@ h2 {
 
 iframe {
     width: 68vw;
-    display: inline-block;
     width: 50%;
     height: 50%;
     border: none; /* Remove a borda do iframe */
