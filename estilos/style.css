@@ -267,7 +267,6 @@ footer {
 }
 
 .periodic-table {
-    width: 90vw;
     width: 100%;
     border-collapse: collapse;
     margin: auto;
@@ -281,7 +280,11 @@ footer {
     border-radius: 8px;
     background-color: #f4f4f9;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease;
+    transition: 0.2s;
+}
+
+.periodic-table .element > a:hover {
+    background-color: #93949b;
 }
 
 .number {
