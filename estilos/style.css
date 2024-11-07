@@ -283,7 +283,7 @@ footer {
     transition: 0.2s;
 }
 
-.periodic-table .element > a:hover {
+.periodic-table .element:hover {
     background-color: #93949b;
 }
 
